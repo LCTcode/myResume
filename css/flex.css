@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+.container .left{
+    flex: 1;
+    width: 100%;
+
+}
+.left .title {
+    flex: 1;
+}
+.left .title img{
+    width: 7rem;
+    height: 9rem;
+}
+.left .lef_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lef_content .contact{
+    flex: 1;
+    width: 60%;
+    display: none;
+}
+.lef_content .application{
+    flex: 1;
+    width: 60%;
+    display: none;
+}
+.lef_content .basicInfo{
+    flex: 1;
+    width: 60%;
+    display: none;
+}
+.lef_content .weixin{
+    flex: 1;
+    width: 50%;
+    margin-right: 2rem;
+    display: none;
+}
+.lef_content .weixin img {
+    margin-bottom: 1rem;
+}
+.lef_content input{
+    display: none;
+}
+.lef_content #menu{
+    color: #FFFFFF;
+    width:60%;
+    text-align: center;
+    border: 1px solid #00b38a;
+    display: block;
+}
+#check:checked~.contact,
+#check:checked~.application,
+#check:checked~.basicInfo,
+#check:checked~.weixin{
+    display: block;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.right .education{
+    flex: 1;
+    width: 95%;
+}
+.right .practice{
+    flex: 1;
+    width: 95%;
+}
+.right .skill{
+    flex: 1;
+    width: 95%;
+}
+.right .mark{
+    margin-top: 1.1rem;
+}

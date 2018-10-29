@@ -1,0 +1,162 @@
+/*共用样式*/
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222222;
+    background-color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust:none
+}
+
+html {
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: .8rem;
+    display: inline-block;
+    text-indent: .2rem;
+}
+/*----------------- 左边-------------------------*/
+.container {
+    width: 800px;
+    min-width: 400px;
+    margin: 3rem auto 2rem;
+    background-color: #f0f2f1;
+    overflow: hidden;
+    display: block;
+    box-shadow: 0px 0 15px #6666;
+    border-radius: 5px;
+}
+
+.container .left {
+    width: 25%;
+    padding: 10px;
+    background-color: #00bfa5;
+    float: left;
+}
+
+.left .title {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 18px;
+    font-size: 1.5rem;
+}
+
+.left .title img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.world {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.lef_content {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.lef_content #menu{
+    display: none;
+}
+.lef_content input{
+    display: none;
+}
+
+.lef_content .contact,
+.lef_content .application,
+.lef_content .basicInfo {
+    width: 96%;
+    margin: 25px auto;
+
+}
+.lef_content .contact h4,
+.lef_content .application h4,
+.lef_content .basicInfo h4{
+    font-weight: bold;
+    color: #99ff33;
+}
+
+.lef_content .contact p,
+.lef_content .application p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.basicInfo p{
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+.basicInfo a:hover{
+    color: #99ff33;
+    text-indent: .1rem;
+}
+
+
+
+.weixin{
+    width: 90%;
+    text-align: center;
+    font-size: .8rem;
+}
+.weixin .wrap-pic{
+    width:50% ;
+    height: auto;
+    margin: 0 auto;
+}
+.wrap-pic img{
+    width: 100%;
+    height: auto;
+    margin:20px auto 50px;
+}
+
+
+/*---------右边-----------------------------*/
+.right {
+    width: 70%;
+    float: left;
+}
+.right .mark{
+    display: inline-block;
+    width: 5px;
+    height: 22px;
+    background-color: #00796b;
+    float: left;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.right h3{
+    color: #00796b;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgba(0,121,107,.4);
+    text-indent: 0.5rem;
+    margin:10px 0 10px 15px;
+}
+.education p{
+    display: inline-block;
+    text-indent: 1.4rem;
+    margin: 10px 0 20px 0;
+}
+.practice p{
+    margin-left: 1rem;
+}
+.skill p{
+    margin-left: 1rem;
+}
