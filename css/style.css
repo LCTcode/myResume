@@ -152,11 +152,47 @@ a{
 .education p{
     display: inline-block;
     text-indent: 1.4rem;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 0 0;
 }
 .practice p{
     margin-left: 1rem;
 }
 .skill p{
     margin-left: 1rem;
+}
+.right dl{
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 1rem;
+}
+hr {
+    margin-left:1rem ;
+    color: rgba(7,17,27,.1);
+    margin-bottom: 10px;
+}
+.right dl dt{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.right dl dd{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.right dl dd span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.right dl dd a{
+    font-size: 13px;
+    color: #000;
+}
+.skill p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    /*border: 1px solid red;*/
+    color: rgb(7,17,27);
+}
+.skill p:after{
+    border: 1px solid rgba(7,17,27,.1);
 }
